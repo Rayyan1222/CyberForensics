@@ -1,3 +1,0 @@
-Volatility 3 Framework 2.27.0
-
-PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output

@@ -18,7 +18,7 @@ with open('netscan.txt', 'r') as infile, open('flagged_connections.csv', 'w', ne
         foreign_ip, foreign_port = parts[4], parts[5]
         state, pid, process, created = parts[6], parts[7], parts[8], parts[9]
 
-        #Flaged 
+        #Flaged if the following criteria
         flagged = []
         if not (foreign_ip.startswith('192.168.') or foreign_ip.startswith('10.') or foreign_ip.startswith('172.')):
             flagged.append('External IP')

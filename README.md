@@ -20,7 +20,7 @@ Step 3: Malware Artifact Detection
 Malware Analysis: Identify known malware by matching behaviors that associate with malicious software. Flag any processes or hidden processes that indicate malware activity.
 
 Step 4: Network Traffic Analysis
-Monitor Network Connections: Look for unusual IP addresses or connections to unknown ports. Track processes that are connecting to multiple external IP addresses which indicates Command-and-Control Communication.
+Monitor Network Connections: Look for unusual IP addresses or connections to unknown ports. Track processes that are connecting to multiple external IP addresses.
 
 Step 5: Machine Learning
 Machine Learning Models: Train machine learning models, such as SVM to classify different attack types based on memory dump data, focusing on attack types such as Malware, MITM, and DOS.

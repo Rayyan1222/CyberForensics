@@ -18,5 +18,5 @@ with open("psscan.txt", "r") as f:
         rows.append(parts[:5])  
 #Create a DataFrame using rows with column names.
 df = pd.DataFrame(rows, columns=header)
-df.to_csv("psscan_cleaned.csv", index=False)
+df.to_csv("psscan.csv", index=False)
 print("Done")

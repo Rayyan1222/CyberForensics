@@ -31,3 +31,5 @@ Model Evaluation: Measure the accuracy, precision, recall, and F1-score of the m
 1. Malware Detection: Extend traditional memory forensics to include the detection of malware artifacts and hidden processes in volatile memory.
 2. Network Traffic Insights: Provide a method for analyzing network traffic from memory dumps, helping to detect data exfiltration and Command-and-Control communications.
 3. AI-Models: Implement AI-based models to detect various attack types helping with detection and accuracy.
+
+Link to Video: https://www.loom.com/share/47a2ac65d22d435d9d522d645167bfba?sid=b120b489-e524-4281-8f7b-7d2db2c0a4cd 

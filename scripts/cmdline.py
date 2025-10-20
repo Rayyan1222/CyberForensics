@@ -20,6 +20,6 @@ with open("cmdline.txt", "r") as file:
         rows.append(parts)
 #Create a DataFrame with rows and columns.
 df = pd.DataFrame(rows, columns=["PID", "Process", "Args"])
-df.to_csv("cmdline_cleaned.csv", index=False)
+df.to_csv("cmdline.csv", index=False)
 
 print("Done")

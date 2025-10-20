@@ -27,6 +27,6 @@ with open("netscan.txt", "r") as f:
             rows.append(parts[:len(header)])
 #Create Dataframe with rows and columns
 df = pd.DataFrame(rows, columns=header)
-df.to_csv("netscan_cleaned.csv", index=False)
+df.to_csv("netscan.csv", index=False)
 print("Done")
 

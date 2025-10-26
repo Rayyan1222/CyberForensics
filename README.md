@@ -5,7 +5,7 @@ This project extends the research on volatile memory forensics by focusing on de
 ## Research Objectives:
 
 1. Malware Artifact Detection: Detect traces of malware in volatile memory by analyzing suspicious processes, unusual memory patterns, and signatures of known malicious software.
-2. Network Traffic Analysis: Analyze network connections from memory dumps to identify unauthorized or suspicous communication, such as data exfiltration or command-and-control.
+2. Network Traffic Analysis: Analyze network connections from memory dumps to identify unauthorized or suspicous communication, such as data exfiltration.
 3. AI-Based Attack Classification: Use machine learning models to classify various attack types (Malware, MITM, and DOS) based on patterns identified in the memory dumps.
 
 ## Methodology:
@@ -29,7 +29,7 @@ Model Evaluation: Measure the accuracy, precision, recall, and F1-score of the m
 ## Expected Contributions:
 
 1. Malware Detection: Extend traditional memory forensics to include the detection of malware artifacts and hidden processes in volatile memory.
-2. Network Traffic Insights: Provide a method for analyzing network traffic from memory dumps, helping to detect data exfiltration and Command-and-Control communications.
+2. Network Traffic Insights: Provide a method for analyzing network traffic from memory dumps, helping to detect data exfiltration.
 3. AI-Models: Implement AI-based models to detect various attack types helping with detection and accuracy.
 
 Link to Video: https://www.loom.com/share/47a2ac65d22d435d9d522d645167bfba?sid=b120b489-e524-4281-8f7b-7d2db2c0a4cd 

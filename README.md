@@ -26,7 +26,7 @@ Step 5: Machine Learning
 Machine Learning Models: Train machine learning models, such as SVM to classify different attack types based on memory dump data, focusing on attack types such as Malware, MITM, and DOS.
 Model Evaluation: Measure the accuracy, precision, recall, and F1-score of the model in detecting and classifying attacks based on the memory features.
 
-## Expected Contributions:
+## Contributions:
 
 1. Malware Detection: Extend traditional memory forensics to include the detection of malware artifacts and hidden processes in volatile memory.
 2. Network Traffic Insights: Provide a method for analyzing network traffic from memory dumps, helping to detect data exfiltration.
